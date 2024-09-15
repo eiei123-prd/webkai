@@ -1,0 +1,124 @@
+<!-- <html lang="en">
+<head>
+<title>https://www.thaicreate.com/php/forum/110270.html</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+    fieldset{
+    display:none;
+}
+</style>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+$("#1").slideDown(500);
+$("button.show").click(function(){
+var Question = $(this).parents('fieldset'),
+CurrentQuestionID = Question.attr('id'),
+NextQuestionID = parseInt(Question.attr('id'))+1,
+allhide = $("div",Question).length;
+$(this).parent().css('display','none');
+$("div",Question).each(function(index,value){
+if(!$(this).is(":visible")){
+--allhide;                 
+}
+//alert('visible['+index+']:'+$(this).is(":visible"));
+});
+if(allhide==0){
+$("#"+CurrentQuestionID).slideUp(200);
+$(
+"#"+NextQuestionID).slideDown(900);
+}
+});
+});
+</script>
+</head>
+<body>
+<fieldset style='width:600px;' id='1'>
+<legend>1.Hello</legend>
+<div>
+<button class="show">Hide One</button>
+<input type="text" value="One">
+</div>
+<div>
+    
+    <button class="show">Hide Two</button>
+    
+    <input type="text" value="Two">
+    
+    </div>
+    
+    <div>
+    
+    <button class="show">Hide Three</button>
+    
+    <input type="text" value="Three">
+    
+    </div>
+    
+    </fieldset>
+    
+     
+    
+    <fieldset style='width:600px;' id='2'>
+    
+    <legend>2.Halloween</legend>
+    
+    <div>
+    
+    <button class="show">Hide One</button>
+    
+    <input type="text" value="One">
+    
+    </div>
+    
+     
+    <div>
+    <button class="show">Hide Two</button>
+    <input type="text" value="Two">
+    </div>
+     
+    <div>
+
+        <button class="show">Hide Three</button>
+    <input type="text" value="Three">
+    </div>
+  
+</fieldset>
+         <fieldset style='width:600px;' id='3'>
+    <legend>3.Titans</legend>
+    <div>
+    <button>Hide One</button>
+    <input type="text" value="One">
+    </div>
+     
+<div>
+<button>Hide Two</button>
+<input type="text" value="Two">
+</div>
+<div>
+<button>Hide Three</button>
+<input type="text" value="Three">
+</div>
+</fieldset>
+ 
+</body>
+
+</html> -->
+
+
+<!-- Newbox!!!!!!  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title>icon</title>
+</head>
+<body>
+    <button class="icon">
+        <i class="fa-solid fa-check"></i>
+        <span>EYE</span>
+    </button>
+</body>
+</html>
